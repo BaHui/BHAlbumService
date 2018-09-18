@@ -4,7 +4,7 @@
 >   **Album Service方便的将图片存储于手机相册中,  支持存储到默认的相册和自定义的相册中.** 
 
 #### 使用Pod集成
-pod 'BHLogFactory', '~> 1.0.0'
+pod 'BHLogFactory', '~> 1.1.0'
 
 #### 使用说明:
 #import "BHAlbumService.h"
