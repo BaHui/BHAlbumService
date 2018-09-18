@@ -48,13 +48,13 @@
                                 </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bh_example_saved" translatesAutoresizingMaskIntoConstraints="NO" id="4TA-Sk-34W">
-                                <rect key="frame" x="70" y="130" width="245" height="347"/>
+                                <rect key="frame" x="50" y="116" width="265" height="375"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="4TA-Sk-34W" secondAttribute="height" multiplier="564:800" id="EoO-Ct-jnE"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nbm-IC-MYs">
-                                <rect key="frame" x="87.5" y="497" width="200" height="35"/>
+                                <rect key="frame" x="87.5" y="511" width="200" height="35"/>
                                 <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="FsE-fZ-0w8"/>
@@ -73,7 +73,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H5v-9l-EU1">
-                                <rect key="frame" x="87.5" y="552" width="200" height="35"/>
+                                <rect key="frame" x="87.5" y="566" width="200" height="35"/>
                                 <color key="backgroundColor" red="0.37055522200000002" green="0.37056469920000001" blue="0.37055957319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="32d-Ge-GgG"/>
@@ -92,7 +92,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OhI-64-zZF">
-                                <rect key="frame" x="187.5" y="597" width="0.0" height="25"/>
+                                <rect key="frame" x="187.5" y="611" width="0.0" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="ipH-7a-FKS"/>
                                 </constraints>
@@ -110,7 +110,7 @@
                             <constraint firstItem="6v1-n1-N3N" firstAttribute="leading" secondItem="4xk-q0-2Hm" secondAttribute="leading" id="Hdv-wr-hXy"/>
                             <constraint firstItem="6v1-n1-N3N" firstAttribute="top" secondItem="4xk-q0-2Hm" secondAttribute="top" id="IAN-7d-evx"/>
                             <constraint firstItem="OhI-64-zZF" firstAttribute="top" secondItem="H5v-9l-EU1" secondAttribute="bottom" constant="10" id="Q0s-eH-tF2"/>
-                            <constraint firstItem="4TA-Sk-34W" firstAttribute="leading" secondItem="4xk-q0-2Hm" secondAttribute="leading" constant="70" id="SJF-hv-W9Z"/>
+                            <constraint firstItem="4TA-Sk-34W" firstAttribute="leading" secondItem="4xk-q0-2Hm" secondAttribute="leading" constant="50" id="SJF-hv-W9Z"/>
                             <constraint firstAttribute="trailing" secondItem="6v1-n1-N3N" secondAttribute="trailing" id="eFU-jI-eox"/>
                             <constraint firstItem="Nbm-IC-MYs" firstAttribute="top" secondItem="4TA-Sk-34W" secondAttribute="bottom" constant="20" id="emO-ds-tPi"/>
                             <constraint firstItem="4TA-Sk-34W" firstAttribute="centerY" secondItem="4xk-q0-2Hm" secondAttribute="centerY" constant="-30" id="kI3-SN-pqU"/>

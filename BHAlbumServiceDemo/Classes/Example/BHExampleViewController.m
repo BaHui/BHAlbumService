@@ -9,6 +9,8 @@
 #import "BHExampleViewController.h"
 #import "BHAlbumService.h"
 
+static NSString *const EXAMPLE_STORYBOARD_NAME = @"ExampleViews";
+
 @interface BHExampleViewController ()
 
 @end
@@ -16,7 +18,7 @@
 @implementation BHExampleViewController
 
 + (instancetype)create {
-  UIStoryboard *exampleStoryboard = [UIStoryboard storyboardWithName:@"ExampleViews" bundle:nil];
+  UIStoryboard *exampleStoryboard = [UIStoryboard storyboardWithName:EXAMPLE_STORYBOARD_NAME bundle:nil];
   return [exampleStoryboard instantiateViewControllerWithIdentifier:NSStringFromClass([BHExampleViewController class])];
 }
 
@@ -28,7 +30,7 @@
 
 #pragma mark - IBAction Methods
 
-// 保存图片到默认系统相册
+// 保存图片到系统默认相册
 - (IBAction)saveToDefaultAlbumClicked:(id)sender {
   [BHAlbumService checkPermissionWithCompletion:^(BOOL isAllowed) {
     if (isAllowed) {
