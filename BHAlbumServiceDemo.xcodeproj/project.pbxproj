@@ -13,13 +13,10 @@
 		6FD013B9214F88BF0040731A /* ExampleViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FD013B8214F88BF0040731A /* ExampleViews.storyboard */; };
 		6FD013BB214F88D00040731A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FD013BA214F88D00040731A /* LaunchScreen.storyboard */; };
 		6FD013C1214F8A9A0040731A /* BHExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD013C0214F8A9A0040731A /* BHExampleViewController.m */; };
-		BD4B15446A2878A1EE77687F /* libPods-BHAlbumServiceDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46DF6C930C0C6E4174624BC5 /* libPods-BHAlbumServiceDemo.a */; };
+		6FE8F9A42150E0D700107C93 /* BHAlbumService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE8F9A32150E0D700107C93 /* BHAlbumService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		14A684DB8991AA4FEF0E6D87 /* Pods-BHAlbumServiceDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BHAlbumServiceDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BHAlbumServiceDemo/Pods-BHAlbumServiceDemo.release.xcconfig"; sourceTree = "<group>"; };
-		46DF6C930C0C6E4174624BC5 /* libPods-BHAlbumServiceDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BHAlbumServiceDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AEB57E33580D88B067BF3AE /* Pods-BHAlbumServiceDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BHAlbumServiceDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BHAlbumServiceDemo/Pods-BHAlbumServiceDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		6FAADBCE214F817300C558BB /* BHAlbumServiceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BHAlbumServiceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FAADBD1214F817300C558BB /* BHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHAppDelegate.h; sourceTree = "<group>"; };
 		6FAADBD2214F817300C558BB /* BHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHAppDelegate.m; sourceTree = "<group>"; };
@@ -31,6 +28,8 @@
 		6FD013BA214F88D00040731A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FD013BF214F8A9A0040731A /* BHExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BHExampleViewController.h; path = Classes/Example/BHExampleViewController.h; sourceTree = "<group>"; };
 		6FD013C0214F8A9A0040731A /* BHExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BHExampleViewController.m; path = Classes/Example/BHExampleViewController.m; sourceTree = "<group>"; };
+		6FE8F9A22150E0D700107C93 /* BHAlbumService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BHAlbumService.h; path = BHAlbumService/BHAlbumService.h; sourceTree = SOURCE_ROOT; };
+		6FE8F9A32150E0D700107C93 /* BHAlbumService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BHAlbumService.m; path = BHAlbumService/BHAlbumService.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +37,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD4B15446A2878A1EE77687F /* libPods-BHAlbumServiceDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +46,6 @@
 		255FD4DEE85D9B639DEDB4AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				46DF6C930C0C6E4174624BC5 /* libPods-BHAlbumServiceDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -58,7 +55,6 @@
 			children = (
 				6FAADBD0214F817300C558BB /* BHAlbumServiceDemo */,
 				6FAADBCF214F817300C558BB /* Products */,
-				B667E56FCCEBCF03559474A0 /* Pods */,
 				255FD4DEE85D9B639DEDB4AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +73,7 @@
 				6FAADBD1214F817300C558BB /* BHAppDelegate.h */,
 				6FAADBD2214F817300C558BB /* BHAppDelegate.m */,
 				6FAADBE9214F867300C558BB /* View Controllers */,
+				6FE8F9A12150E0C200107C93 /* BHAlbumService */,
 				6FAADBED214F86DF00C558BB /* Storyboards */,
 				6FAADBE8214F836B00C558BB /* Supporting Files */,
 			);
@@ -112,13 +109,13 @@
 			name = Storyboards;
 			sourceTree = "<group>";
 		};
-		B667E56FCCEBCF03559474A0 /* Pods */ = {
+		6FE8F9A12150E0C200107C93 /* BHAlbumService */ = {
 			isa = PBXGroup;
 			children = (
-				5AEB57E33580D88B067BF3AE /* Pods-BHAlbumServiceDemo.debug.xcconfig */,
-				14A684DB8991AA4FEF0E6D87 /* Pods-BHAlbumServiceDemo.release.xcconfig */,
+				6FE8F9A22150E0D700107C93 /* BHAlbumService.h */,
+				6FE8F9A32150E0D700107C93 /* BHAlbumService.m */,
 			);
-			name = Pods;
+			name = BHAlbumService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +125,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6FAADBE4214F817600C558BB /* Build configuration list for PBXNativeTarget "BHAlbumServiceDemo" */;
 			buildPhases = (
-				4E9A219756A627BC501E33C5 /* [CP] Check Pods Manifest.lock */,
 				6FAADBCA214F817300C558BB /* Sources */,
 				6FAADBCB214F817300C558BB /* Frameworks */,
 				6FAADBCC214F817300C558BB /* Resources */,
@@ -187,27 +183,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		4E9A219756A627BC501E33C5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BHAlbumServiceDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		6FAADBCA214F817300C558BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -216,6 +191,7 @@
 				6FD013C1214F8A9A0040731A /* BHExampleViewController.m in Sources */,
 				6FAADBE1214F817600C558BB /* main.m in Sources */,
 				6FAADBD3214F817300C558BB /* BHAppDelegate.m in Sources */,
+				6FE8F9A42150E0D700107C93 /* BHAlbumService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +310,6 @@
 		};
 		6FAADBE5214F817600C558BB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AEB57E33580D88B067BF3AE /* Pods-BHAlbumServiceDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -354,7 +329,6 @@
 		};
 		6FAADBE6214F817600C558BB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14A684DB8991AA4FEF0E6D87 /* Pods-BHAlbumServiceDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
