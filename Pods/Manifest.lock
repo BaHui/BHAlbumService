@@ -1,16 +1,16 @@
 PODS:
-  - BHAlbumService (1.0.0)
+  - BHAlbumService (1.1.0)
 
 DEPENDENCIES:
-  - BHAlbumService (~> 1.0.0)
+  - BHAlbumService (~> 1.1.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - BHAlbumService
 
 SPEC CHECKSUMS:
-  BHAlbumService: d5334767f20cca937f564a22bcc5058c0c790a69
+  BHAlbumService: 27bf3cedcdcc37d039f6675da7ff3a06edab21ee
 
-PODFILE CHECKSUM: c77eb9a0bdb64530a5f7bcaa19a564e39dafc635
+PODFILE CHECKSUM: f0a313a1065e23e100043f9153122ebdc2d07616
 
 COCOAPODS: 1.5.3

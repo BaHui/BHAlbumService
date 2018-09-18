@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0864C1EAE422BA770E774064F086D1EB /* BHAlbumService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9B8780B6258A31DAFD0402D580B09E /* BHAlbumService-dummy.m */; };
+		0864C1EAE422BA770E774064F086D1EB /* BHAlbumService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DF28419F208F87BE0AF3D217D083AE /* BHAlbumService-dummy.m */; };
 		149570F39B789A5C917CB20799CE3711 /* Pods-BHAlbumServiceDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA271DE827C09E43431F3521174AFBD /* Pods-BHAlbumServiceDemo-dummy.m */; };
+		20964225837A7C62B2074AE244EBA1DD /* BHAlbumService.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BE362D19948ACDEE97CE587B4B850D /* BHAlbumService.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		36CC95058F61D1119615A004FAD94B30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		480413C9355D92E55C8B42C7F157267C /* BHAlbumService.h in Headers */ = {isa = PBXBuildFile; fileRef = 638614C4D2D3A7D6A490AC2CCF04E858 /* BHAlbumService.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4D0C3E5DF5CB81F14DD0408C10EDC0C6 /* BHAlbumService.m in Sources */ = {isa = PBXBuildFile; fileRef = 51CBD9F51EB4DFDB85E3C5E90AF1F4CA /* BHAlbumService.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		51AEFC1DC97999CC8624A84B5DD516DA /* BHAlbumService.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AFAA98E3E8C76FF9E6B450D844604F4 /* BHAlbumService.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		840A93E463CC621C46082B26D0F5389D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,22 +26,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D7B0A26750E23C3466FFA528E0B5567 /* BHAlbumService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BHAlbumService-prefix.pch"; sourceTree = "<group>"; };
+		1AFAA98E3E8C76FF9E6B450D844604F4 /* BHAlbumService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHAlbumService.h; path = Pods/BHAlbumService/BHAlbumService/BHAlbumService.h; sourceTree = "<group>"; };
+		24915495097BB5A723E46B1E7A4B3679 /* BHAlbumService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BHAlbumService-prefix.pch"; sourceTree = "<group>"; };
+		2BFE7E82A8C1D13CB2F4FABA9F48EDD7 /* BHAlbumService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BHAlbumService.xcconfig; sourceTree = "<group>"; };
+		37BE362D19948ACDEE97CE587B4B850D /* BHAlbumService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHAlbumService.m; path = Pods/BHAlbumService/BHAlbumService/BHAlbumService.m; sourceTree = "<group>"; };
 		3C083BCD8059E931E8865D7423BCF72F /* Pods-BHAlbumServiceDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BHAlbumServiceDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		3DA271DE827C09E43431F3521174AFBD /* Pods-BHAlbumServiceDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BHAlbumServiceDemo-dummy.m"; sourceTree = "<group>"; };
 		49A48ABC776F383BFB62F3F61BAE0B47 /* Pods-BHAlbumServiceDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BHAlbumServiceDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		51CBD9F51EB4DFDB85E3C5E90AF1F4CA /* BHAlbumService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHAlbumService.m; path = BHAlbumService/BHAlbumService.m; sourceTree = "<group>"; };
+		49DF28419F208F87BE0AF3D217D083AE /* BHAlbumService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BHAlbumService-dummy.m"; sourceTree = "<group>"; };
 		54CC0E4BD65A7987ED9D45A6FF1E7A7F /* libPods-BHAlbumServiceDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-BHAlbumServiceDemo.a"; path = "libPods-BHAlbumServiceDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		638614C4D2D3A7D6A490AC2CCF04E858 /* BHAlbumService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHAlbumService.h; path = BHAlbumService/BHAlbumService.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75BFB48E7357F274A2D59E0F676D6C1C /* Pods-BHAlbumServiceDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BHAlbumServiceDemo.release.xcconfig"; sourceTree = "<group>"; };
 		8F2A3E85138510CAC2CA084840FC3557 /* libBHAlbumService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libBHAlbumService.a; path = libBHAlbumService.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		928032C48C40A1F10F73E241B7730C73 /* Pods-BHAlbumServiceDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BHAlbumServiceDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A08F6BC23D349463776BC8D66502F819 /* Pods-BHAlbumServiceDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BHAlbumServiceDemo-resources.sh"; sourceTree = "<group>"; };
-		AF9B8780B6258A31DAFD0402D580B09E /* BHAlbumService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BHAlbumService-dummy.m"; sourceTree = "<group>"; };
 		DA7B5BA6E422F39E259382B8620BE819 /* Pods-BHAlbumServiceDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BHAlbumServiceDemo-frameworks.sh"; sourceTree = "<group>"; };
-		E1472F40061DAFE3A4688DAA35788CC4 /* BHAlbumService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BHAlbumService.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +64,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FDA27DF63735180A05632FDE9FCE685 /* BHAlbumService */ = {
+			isa = PBXGroup;
+			children = (
+				1AFAA98E3E8C76FF9E6B450D844604F4 /* BHAlbumService.h */,
+				37BE362D19948ACDEE97CE587B4B850D /* BHAlbumService.m */,
+				77244956716F23997AE5850ADFD528C6 /* Support Files */,
+			);
+			name = BHAlbumService;
+			path = BHAlbumService;
+			sourceTree = "<group>";
+		};
 		12ACBDBABEF71B5F7C408066C5AAC1D1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,10 +107,21 @@
 			path = "Target Support Files/Pods-BHAlbumServiceDemo";
 			sourceTree = "<group>";
 		};
+		77244956716F23997AE5850ADFD528C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BFE7E82A8C1D13CB2F4FABA9F48EDD7 /* BHAlbumService.xcconfig */,
+				49DF28419F208F87BE0AF3D217D083AE /* BHAlbumService-dummy.m */,
+				24915495097BB5A723E46B1E7A4B3679 /* BHAlbumService-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BHAlbumService";
+			sourceTree = "<group>";
+		};
 		77BAE0015237A856FDF337A4BBD23DFC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FC05E0A8EBFF4E80936531DD1F0B3D0A /* BHAlbumService */,
+				0FDA27DF63735180A05632FDE9FCE685 /* BHAlbumService */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -131,28 +153,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F9E847BFBE07902DE3FF94ADFD2B027A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E1472F40061DAFE3A4688DAA35788CC4 /* BHAlbumService.xcconfig */,
-				AF9B8780B6258A31DAFD0402D580B09E /* BHAlbumService-dummy.m */,
-				1D7B0A26750E23C3466FFA528E0B5567 /* BHAlbumService-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/BHAlbumService";
-			sourceTree = "<group>";
-		};
-		FC05E0A8EBFF4E80936531DD1F0B3D0A /* BHAlbumService */ = {
-			isa = PBXGroup;
-			children = (
-				638614C4D2D3A7D6A490AC2CCF04E858 /* BHAlbumService.h */,
-				51CBD9F51EB4DFDB85E3C5E90AF1F4CA /* BHAlbumService.m */,
-				F9E847BFBE07902DE3FF94ADFD2B027A /* Support Files */,
-			);
-			name = BHAlbumService;
-			path = BHAlbumService;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -160,7 +160,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				480413C9355D92E55C8B42C7F157267C /* BHAlbumService.h in Headers */,
+				51AEFC1DC97999CC8624A84B5DD516DA /* BHAlbumService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0864C1EAE422BA770E774064F086D1EB /* BHAlbumService-dummy.m in Sources */,
-				4D0C3E5DF5CB81F14DD0408C10EDC0C6 /* BHAlbumService.m in Sources */,
+				20964225837A7C62B2074AE244EBA1DD /* BHAlbumService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +260,7 @@
 /* Begin XCBuildConfiguration section */
 		1711E497DA6A5FCCB289485F24DE6E95 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1472F40061DAFE3A4688DAA35788CC4 /* BHAlbumService.xcconfig */;
+			baseConfigurationReference = 2BFE7E82A8C1D13CB2F4FABA9F48EDD7 /* BHAlbumService.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -368,7 +368,7 @@
 		};
 		D78C38347F189811B0FDDB78C5F67E07 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1472F40061DAFE3A4688DAA35788CC4 /* BHAlbumService.xcconfig */;
+			baseConfigurationReference = 2BFE7E82A8C1D13CB2F4FABA9F48EDD7 /* BHAlbumService.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

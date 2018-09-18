@@ -1,4 +1,3 @@
-
 # BHAlbumService
 
 ##简介
@@ -12,17 +11,20 @@ pod 'BHLogFactory', '~> 1.0.0'
 
 #### 支持系统:  iOS8+
 
-## 实现概要:
->  相册权限配置(必要的): 
-**iOS11以前**
-NSPhotoLibraryUsageDescription  // 访问相册和存储照片到相册（读写），需要用户授权
-**iOS11以后**
-NSPhotoLibraryUsageDescription   // 无需添加。默认开启访问相册权限（读），无需用户授权
-NSPhotoLibraryAddUsageDescription   // 添加内容到相册（写），需要用户授权
+## 相册权限配置:
+>  **iOS11以前:** 
+>>`NSPhotoLibraryUsageDescription` // 访问相册和存储照片到相册（读写），需要用户授权
+
+>    **iOS11以后:**
+>> `NSPhotoLibraryUsageDescription`  // 无需添加。默认开启访问相册权限（读），无需用户授权
+`NSPhotoLibraryAddUsageDescription`  // 添加内容到相册（写），需要用户授权`
+
 
 > 因此, 需要在项目的plist文件中新增两个key和对应的描述信息, 分别为:
->* NSPhotoLibraryUsageDescription
->* NSPhotoLibraryAddUsageDescription
+>* **`NSPhotoLibraryUsageDescription`**
+>* **`NSPhotoLibraryAddUsageDescription`**
+
+## 方法调用:
 ```
 /**
 * 校验是否有权限打开相册;

@@ -1,1 +1,1 @@
-../../../BHAlbumService/BHAlbumService/BHAlbumService.h
+../../../BHAlbumService/Pods/BHAlbumService/BHAlbumService/BHAlbumService.h
